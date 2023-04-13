@@ -11,6 +11,7 @@ def sum_five(value):
 def sum_two_values_and_add_value(first_value, second_value, f_sum):  # el f_sum se lo estamos pasando como una función
     return f_sum(first_value + second_value)  # Le llegan los valores, los suma y llama a sum_one
 
+
 print(sum_two_values_and_add_value(5, 2, sum_one))
 print(sum_two_values_and_add_value(5, 2, sum_five))
 

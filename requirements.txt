@@ -1,0 +1,6 @@
+# pip install -r requirements.txt
+fastapi
+uvicorn
+pymongo >= 3.11.0
+ruff
+black

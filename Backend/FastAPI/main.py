@@ -4,7 +4,7 @@ from Backend.FastAPI.routers import products, users, users_db,  basic_auth_users
 
 app = FastAPI()
 
-# Routers: importar mis otras API's
+# Routers: importar mis otrxs API's/archivos
 app.include_router(products.router)
 app.include_router(users.router)
 app.include_router(users_db.router)
@@ -14,7 +14,8 @@ app.include_router(jwt_auth_users.router)
 
 # Recursos estáticos
 app.mount("/static", StaticFiles(directory="Backend/FastAPI/static"), name="static")
-# mount: Para poder acceder a la carpeta static y ver la imágen (url: http://127.0.0.1:8000/static/images/image.jpg)
+# mount: Para poder acceder a la carpeta static y ver la imágen
+# (url: http://127.0.0.1:8000/static/images/image.jpg)
 
 # pip install uvicorn
 # Inicia el server: python -m uvicorn Backend.FastAPI.main:app --reload

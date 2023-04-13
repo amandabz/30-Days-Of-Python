@@ -1,0 +1,4 @@
+### MongoAtlas Database Password and User ###
+
+user: amandabz
+password: 27OaKwNfJYKwm4Ef
