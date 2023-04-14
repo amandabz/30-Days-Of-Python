@@ -160,4 +160,4 @@ cython_debug/
 .idea/
 
 # My Stuff
-Backend/MongoAtlas.txt
+Backend/MongoAtlasCredentials.txt
