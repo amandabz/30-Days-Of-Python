@@ -8,7 +8,6 @@
 # pip --version
 
 # pip install numpy
-
 import numpy  # pip install numpy
 print(numpy.version.version)  # ver versión de numpy
 
@@ -19,7 +18,6 @@ print(type(numpy_array))
 
 
 # pip install pandas
-
 import pandas   # pip install pandas
 
 panda_array = pandas.array([4, 5, 6])
@@ -28,7 +26,6 @@ print(type(panda_array))
 
 
 # pip install requests
-
 import requests  # para pedir peticiones a una APIs
 
 response = requests.get("https://pokeapi.co/api/v2/pokemon?limit=151")

@@ -4,3 +4,10 @@ uvicorn
 pymongo >= 3.11.0
 ruff
 black
+numpy
+pandas
+requests
+python-multipart
+"python-jose[cryptography]"
+passlib
+pydantic
