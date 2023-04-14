@@ -160,4 +160,4 @@ cython_debug/
 .idea/
 
 # My Stuff
-**/MongoAtlas.txt
+Backend/MongoAtlas.txt
