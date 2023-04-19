@@ -1,0 +1,18 @@
+### Deta ###
+    - Documentación FastAPI: https://fastapi.tiangolo.com/es/deployment/deta/#__tabbed_1_2
+
+        # Para instalar deta en nuestro proyecto (en la terminal de nuestro proyecto):
+            - iwr https://get.deta.dev/cli.ps1 -useb | iex
+
+        # Para iniciar sesión en deta:
+            - deta login
+
+        # Para crear un nuevo proyecto en deta:
+            - deta new
+
+        # Para desplegar nuestro proyecto en deta:
+            - deta deploy
+
+        # Para ver los logs de nuestro proyecto en deta:
+            - deta logs
+
