@@ -80,5 +80,5 @@ b = int(input(("Segundo valor:")))
 try:
     print(f"La suma de {a} más {b} es: {sum(a, b)}")
     print("Funciona la suma")
-except:
+except TypeError as e:
     print("No funciona la suma")
