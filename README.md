@@ -4,7 +4,7 @@
 
 Welcome to the "30-Days-Of-Python" course! This course is designed to help you learn Python from scratch and advance your programming skills. We cover three levels of expertise: Beginner, Intermediate, and Backend.
 
-![Python Logo](path/to/python_logo.png)
+![Python Logo](https://www.python.org/static/community_logos/python-logo-master-v3-TM.png)
 
 ### Contents:
 
